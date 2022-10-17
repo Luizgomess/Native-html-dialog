@@ -1,0 +1,71 @@
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2F3037;
+    color: #fff;
+    font-size: 1rem;
+}
+
+dialog {
+    height: 256px;
+    width: 320px;
+    border-radius: 24px;
+    border: none;
+    background-color: #1D1E22;
+    padding: 26px;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .4);
+}
+
+dialog span {
+    font-size: 36px !important;
+    color: #fff;
+}
+
+dialog h1 {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+dialog p {
+    color: #5C616A;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+dialog .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+dialog .btn-wrapper button {
+    width: 42%;
+    height: 44px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+
+dialog .btn-wrapper .delete {
+    background-color: #413DF7;
+}
+
+dialog .btn-wrapper .delete:hover {
+    background-color: #1E19FB;
+}
+
+dialog .btn-wrapper .cancel {
+    background-color: #2F3037;
+}
+
+dialog .btn-wrapper .cancel:hover {
+    background-color: #3B3C43;
+}
